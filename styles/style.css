@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(15, 11, 48, 1);
+    color: white;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 90%;
+    margin-inline: auto;
+    padding: 34px 0;
+    flex-wrap: wrap;
+}
+
+.navbar-ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-li{
+    padding: 0 15px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.navbar-link:hover{
+    color: blueviolet;
+}
+
+.logo__markai{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+  padding: 6px 20px;
+  border-radius: 50.04px; 
+  cursor: pointer;
+  border: none;
+  background: rgba(15, 11, 48, 1);
+  color: white;
+  border: 2px solid white;
+}    
+
+.btn__modifier{
+    margin-left: 20px;
+}
+
+.section__container{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1--top{
+    display: block;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.h1--bottom{
+    font-size: 98px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #00F0FF , #5773FF , #FF007A );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paragraph{
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.arrow__down{
+    margin-top: 100px;
+}
+
+.btn__more{
+    display: flex;
+    align-items: center;
+    padding: 1em 3em;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__span{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.btn__more:hover{
+    background: linear-gradient(to right, darkblue, crimson);
+    color: white;
+}
